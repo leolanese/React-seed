@@ -112,10 +112,11 @@ npm install -D prettier
 
 ````
 
-### run
+### run the seed !
 
-```html
-yarn start // this will open the http://localhost:3000/ ready
+```js
+// at this point a browser will open: http://localhost:3000/
+yarn start
 ```
 
 ---
