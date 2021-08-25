@@ -10,20 +10,39 @@ git clone https://github.com/leolanese/react-seed.git cd react-seed npm i
 
 ### What this React-seed does for you in advanced
 
-````html
+````js
 1. create-react-app yarn create react-app react-seed cd react-seed -- At this
 point it will work only as a React app skeleton 2. react-router-dom yarn add
-react-router-dom -- Also including few basic sematic `<Router
-  >` & `<link />` with
-  <Router>
-    (+ mocks). This is intended to cover basic scenarios 3. node-sass yarn add
-    node-sass -- Renamed .css to .scss 4. react-bootstrap yarn add bootstrap 5.
-    TS (.tsx) yarn add typescript @types/node @types/react @types/react-dom
-    @types/jest 6. Removing the pre-set ESLint configuration from React project
-    ```js // package.json "eslintConfig": { "extends": "react-app" }, 7. Install
-    ESLint package ```js npm install eslint --save-dev</Router
-  ></Router
->
+react-router-dom -- Also including few basic sematic
+`<Router>` & `<link />` with <Router>
+
+(+ mocks).
+This is intended to cover basic scenarios
+```js
+node-sass yarn add
+node-sass
+```
+
+-- Renamed .css's to .scss's files
+
+```js
+4. react-bootstrap yarn add bootstrap
+5. TS (.tsx)
+
+```js
+yarn add typescript @types/node @types/react @types/react-dom@types/jest
+```
+
+6. Removing the pre-set ESLint configuration from React project
+
+```js
+// package.json
+"eslintConfig": { "extends": "react-app" },
+```
+
+7. Install ESLint package
+```js
+npm install eslint --save-dev
 ````
 
 8. Setup ESLint
