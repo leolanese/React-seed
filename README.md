@@ -4,8 +4,9 @@
 
 ### Deployment
 
-```html
-git clone https://github.com/leolanese/react-seed.git cd react-seed npm i
+```js
+git clone https://github.com/leolanese/react-seed.git 
+cd react-seed npm i
 ```
 
 ### What this React-seed does for you in advanced
@@ -15,19 +16,19 @@ git clone https://github.com/leolanese/react-seed.git cd react-seed npm i
 point it will work only as a React app skeleton 2. react-router-dom yarn add
 react-router-dom -- Also including few basic sematic
 `<Router>` & `<link />` with <Router>
-
-(+ mocks).
-This is intended to cover basic scenarios
-```js
-node-sass yarn add
-node-sass
 ```
 
--- Renamed .css's to .scss's files
-
+This is intended to cover basic scenarios
 ```js
-4. react-bootstrap yarn add bootstrap
-5. TS (.tsx)
+yarn add node-sass
+```
+
+4. react-bootstrap 
+```js
+yarn add bootstrap
+```
+
+5. adding support to TS (.tsx)
 
 ```js
 yarn add typescript @types/node @types/react @types/react-dom@types/jest
