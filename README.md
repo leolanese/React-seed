@@ -36,8 +36,8 @@
 
  6. Removing the pre-set ESLint configuration from React project   
   ```js
- // package.json
- "eslintConfig": {
+  // package.json
+  "eslintConfig": {
     "extends": "react-app"
   },    
   
@@ -51,55 +51,56 @@
   npx eslint --init
   ```
 
+  ``js
+  // adding extra rules to solve typical problem
+      "rules": {
+            "react/prop-types": 0,
+            "react/react-in-jsx-scope": 0,
+            "@typescript-eslint/no-empty-function": 0,
+            "no-use-before-define": "off",
+            "@typescript-eslint/no-use-before-define": [
+                  "error"
+            ]
+      }
+  ```
+
+  ```js
+  // adding extra extens
+        "extends": [
+            "eslint:recommended",
+            "plugin:import/errors",
+            "plugin:react/recommended",
+            "plugin:jsx-a11y/recommended",
+            "plugin:react-hooks/recommended",
+            "plugin:@typescript-eslint/recommended",
+            "plugin:@typescript-eslint/recommended-requiring-type-checking",
+            "airbnb"
+      ],
+  ```    
+
+
   9. Prettier
   ```js
   npm install -D prettier
   ```
+
   ```js
   // package.json
   "format": "prettier --write \"src/**/*.{js,jsx}\""
   ``` 
 
-  Option selected were:
-  ```
-      How would you like to use ESLint?
-      Select: To check syntax, find problems, and enforce code style
-
-      What type of modules does your project use?
-      Select: JavaScript modules (import/export)
-
-      Which framework does your project use?
-      Select: React
-
-      Does your project use TypeScript?
-      Select: Yes
-
-      Where does your code run?
-      Select: Browser
-
-      How would you like to define a style for your project?
-      Select: Use a popular style guide
-
-      Which style guide do you want to follow?
-      Select: Airbnb: https://github.com/airbnb/javascript
-
-      What format do you want your config file to be in?
-      Select: JSON
-
-      Would you like to install them now with npm?
-      Select: Yes
-  ```
 ```
   10. A better version of `.gitignore`
   This will help out of the box to avoid commit errors
-  
-   
+
+
 
 
 -- At this point we can ue TS in our app, files are renamed as .TSX
 -- props are `hardly-type` so using `any` type (only for demonstrations proposes) 
--- to run ESlint use: `npx eslint src/*` or `npx eslint <targetFile> --fix`
+-- to run ESlint use: `npx eslint src/*` or `npx eslint <targetFile> --fix` or `npx eslint <targetFile> --quiet`
 -- to run prettier: `yarn format` or `npm run format`
+
 
 ```
 
