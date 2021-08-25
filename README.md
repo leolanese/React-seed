@@ -4,7 +4,7 @@
 ### Deployment
 
 ```html
- git clone repo
+ git clone https://github.com/leolanese/react-seed.git
  cd react-seed
  npm i
 ```
