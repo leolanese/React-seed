@@ -36,7 +36,7 @@
     yarn add typescript @types/node @types/react @types/react-dom @types/jest
 
 -- At this point we can ue TS in our app, files are renamed as .TSX
--- props are hardly-type as any (only for demonstrations proposes) 
+-- props are hardly-type use any (only for demonstrations proposes) 
 
 ```
 
