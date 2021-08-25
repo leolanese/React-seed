@@ -1,6 +1,6 @@
 ## React-seed
 
-> A react-seed using typescript, routers, SASS and bootstrap (based on create-react-app)
+> A react-seed using typescript, jest, prettier, ESlint, react-routers, sass, and bootstrap (based on create-react-app)
 
 ### Deployment
 
