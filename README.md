@@ -51,7 +51,7 @@
   npx eslint --init
   ```
 
-  ``js
+  ```js
   // adding extra rules to solve typical problem
       "rules": {
             "react/prop-types": 0,
