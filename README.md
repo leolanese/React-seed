@@ -93,8 +93,37 @@
   10. A better version of `.gitignore`
   This will help out of the box to avoid commit errors
 
+  11. Jest
+  ```js
+  npm install -D jest@26.6.3 @testing-library/react@11.2.5.
+  ```
+
+  ```js
+  // .babelrc 
+  {
+  "presets": [
+    ["@babel/preset-react",{
+        "runtime": "automatic"}],
+    "@babel/preset-env"],
+      "plugins": ["@babel/plugin-proposal-class-properties"],
+      "env": {
+      "test": { "presets": [[
+            "@babel/preset-env", {
+                  "targets": {
+                  "node": "current"
+                  }
+            }]]} }
+      }
+      ```
+
+      ```js
+      // included to the pacakge.json
+      "test": "jest",
+      "test:watch": "jest --watch"
+      ```
 
 
+```
 
 -- At this point we can ue TS in our app, files are renamed as .TSX
 -- props are `hardly-type` so using `any` type (only for demonstrations proposes) 
