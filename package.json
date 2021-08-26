@@ -38,10 +38,18 @@
   },
   "devDependencies": {
     "@testing-library/react": "^11.2.5",
+    "@testing-library/react-hooks": "^5.1.0",
     "eslint": "^6.6.0",
     "jest": "24.9.0",
+    "jest-fetch-mock": "^3.0.3",
     "node-sass": "4.14.1",
     "prettier": "2.3.2",
     "sass-loader": "11.1.1"
+  },
+  "jest": {
+    "automock": false,
+    "setupFiles": [
+      "./src/setupJest.js"
+    ]
   }
 }

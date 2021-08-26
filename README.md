@@ -132,6 +132,7 @@ npm install -D prettier
 -- to run ESlint use: `npx eslint src/*` or `npx eslint <targetFile> --fix` or `npx eslint <targetFile> --quiet`
 -- to run prettier: `yarn format` or `npm run format`
 
+## Jest & react-testing-library (instead of Enzyme)
 
 ````
 
