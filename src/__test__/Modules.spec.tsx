@@ -1,5 +1,5 @@
-import { simpleFunc } from '../Modules'
-import { complexFunc } from "../Modules";
+import { simpleFunc } from '../Modules/Modules';
+import { complexFunc } from '../Modules/Modules';
 
 describe("A simple module", () => {
 
