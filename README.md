@@ -5,13 +5,13 @@
 ### Deployment
 
 ```js
-git clone https://github.com/leolanese/react-seed.git 
+git clone https://github.com/leolanese/react-seed.git
 cd react-seed npm i
 ```
 
 ### What this React-seed does for you in advanced
 
-````js
+```js
 1. create-react-app yarn create react-app react-seed cd react-seed -- At this
 point it will work only as a React app skeleton 2. react-router-dom yarn add
 react-router-dom -- Also including few basic sematic
@@ -19,11 +19,13 @@ react-router-dom -- Also including few basic sematic
 ```
 
 This is intended to cover basic scenarios
+
 ```js
 yarn add node-sass
 ```
 
-4. react-bootstrap 
+4. react-bootstrap
+
 ```js
 yarn add bootstrap
 ```
@@ -42,9 +44,10 @@ yarn add typescript @types/node @types/react @types/react-dom@types/jest
 ```
 
 7. Install ESLint package
+
 ```js
 npm install eslint --save-dev
-````
+```
 
 8. Setup ESLint
 
