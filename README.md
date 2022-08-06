@@ -86,7 +86,10 @@ npx eslint --init
 
 ```js
 npm install -D prettier
-```
+```    
+Note: 
+To run prettier: `yarn format` or `npm run format`    
+
 
 ```js
 // package.json
@@ -101,36 +104,35 @@ This will help out of the box to avoid commit errors
 npm install -D jest@26.6.3 @testing-library/react@11.2.5.
 ````
 
-````js
+```js
 // .babelrc
 {
 "presets": [
   ["@babel/preset-react",{
       "runtime": "automatic"}],
   "@babel/preset-env"],
-    "plugins": ["@babel/plugin-proposal-class-properties"],
-    "env": {
+   "plugins": ["@babel/plugin-proposal-class-properties"],
+   "env": {
     "test": { "presets": [[
-          "@babel/preset-env", {
-                "targets": {
-                "node": "current"
-                }
-          }]]} }
-    }
-    ```
+         "@babel/preset-env", {
+               "targets": {
+               "node": "current"
+               }
+         }]]} }
+   }
+   ```
 
-    ```js
-    // included to the pacakge.json
-    "test": "jest",
-    "test:watch": "jest --watch"
-    ```
+   ```js
+   // included to the pacakge.json
+   "test": "jest",
+   "test:watch": "jest --watch"
+   ```
 
 
 -- At this point we can ue TS in our app, files are renamed as: '.tsx'
--- props are `hardly-type` so using `any` type (only for demonstrations proposes)
 -- to run ESlint use: `npx eslint src/*` or `npx eslint <targetFile> --fix` or `npx eslint <targetFile> --quiet`
--- to run prettier: `yarn format` or `npm run format`
-
+-- Note: props are `hardly-type` so using `any` type (only for demonstrations proposes)
+    
 ## Jest & react-testing-library (instead of Enzyme)
 
 ````
