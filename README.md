@@ -93,13 +93,12 @@ npm install -D prettier
 "format": "prettier --write \"src/**/*.{js,jsx}\""
 ```
 
-````
-  10. A better version of `.gitignore`
-  This will help out of the box to avoid commit errors
+10. A better version of `.gitignore`
+This will help out of the box to avoid commit errors
 
-  11. Jest
-  ```js
-  npm install -D jest@26.6.3 @testing-library/react@11.2.5.
+11. Jest
+```js
+npm install -D jest@26.6.3 @testing-library/react@11.2.5.
 ````
 
 ````js
@@ -127,7 +126,7 @@ npm install -D prettier
     ```
 
 
--- At this point we can ue TS in our app, files are renamed as .TSX
+-- At this point we can ue TS in our app, files are renamed as: '.tsx'
 -- props are `hardly-type` so using `any` type (only for demonstrations proposes)
 -- to run ESlint use: `npx eslint src/*` or `npx eslint <targetFile> --fix` or `npx eslint <targetFile> --quiet`
 -- to run prettier: `yarn format` or `npm run format`
@@ -136,7 +135,7 @@ npm install -D prettier
 
 ````
 
-### run the seed !
+### Now, run the seed !
 
 ```js
 // at this point a browser will open: http://localhost:3000/
